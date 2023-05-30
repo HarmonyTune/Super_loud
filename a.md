@@ -24,24 +24,24 @@ bit of a challenge
 My idea was definitely too big for the hackathon ! My teammate ended up not having the time to participate - he usually works on smart contracts/subgraphs/more backend things and I handle front-end/project design & architecture. I left out the challenge part, sybil resistance and notification part to focus on the karaoke experience.
 
 ## Monorepo structure
-```
-apps/webapp - Superloud front-end (webapp - SolidStart, wagmi)
-apps/smartcontracts-solidity/* - Superloud solidity smart contracts (Catalog & Challenges)
-apps/smartcontracts-warp/* - Superloud Warp (Smartweave) smart contracts (Voting)
-apps/subgraph-catalog - Subgraph for the karaoke catalog (hosted service)
-apps/subgraph-challenges - Subgraph for the karaoke challenges
-```
+
+- `apps/webapp` - Superloud front-end (webapp - SolidStart, wagmi)
+- `apps/smartcontracts-solidity/*` - Superloud solidity smart contracts (Catalog & Challenges)
+- `apps/smartcontracts-warp/*` - Superloud Warp (Smartweave) smart contracts (Voting)
+- `apps/subgraph-catalog` - Subgraph for the karaoke catalog ([hosted service](https://thegraph.com/hosted-service/subgraph/naomihauret/superloud-catalog-mumbai))
+- `apps/subgraph-challenges` - Subgraph for the karaoke challenges
 
 ## Tech stack overview
-NFT Music, Artists & Playlist API: Spinamp
-Song catalog & challenge smart contracts: Solidity
-Challenge entrance ticket & karaoke trial ticket: Unlock Protocol
-Voting smart contract: Smartweave
-Oracle: Chainlink
-Vote sybil resistance: Polygon ID
-Automated rewards distribution: Superfluid
-Cross-chain distribution: Connextq
-Subgraph:
-Social login: Arcana
-Storage: IPFS (infura-ipfs, w3ui)
-Video NFT & CDN: Livepeer
+
+- NFT Music, Artists & Playlist API: [Spinamp](https://dev.spinamp.xyz/)
+- Song catalog & challenge smart contracts: Solidity
+- Challenge entrance ticket & karaoke trial ticket: Unlock Protocol
+- Voting smart contract: Smartweave
+- Oracle: Chainlink
+- Vote sybil resistance: Polygon ID
+- Automated rewards distribution: Superfluid
+- Cross-chain distribution: Connextq
+- Subgraph:
+- Social login: Arcana
+- Storage: IPFS (infura-ipfs, w3ui)
+- Video NFT & CDN: Livepeer
