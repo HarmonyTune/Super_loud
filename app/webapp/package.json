@@ -1,6 +1,7 @@
 {
   "name": "webapp",
   "scripts": {
+      "build": "tsc -p ./src",
     "app:dev": "solid-start dev",
     "dev": "solid-start dev",
     "build": "solid-start build",
