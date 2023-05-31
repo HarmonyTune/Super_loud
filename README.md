@@ -1,4 +1,4 @@
-# Superloud
+# Super_loud
 
 > **Web3 powered karaoke & community interactions for song writers and musicians.**
 
