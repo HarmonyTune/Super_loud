@@ -4,13 +4,13 @@ import Counter from '~/components/Counter'
 import Button from '~/components/system/Button'
 
 export default function Home() {
-  /*
+  
   const {
     mutationPermissions,
     recorder: { start, stop, isRecording, permissions, audio },
   } = useKaraokeSession()
 
-  */
+ 
   return (
     <main class="text-center mx-auto text-gray-700 p-4">
       {/*      <Switch>
