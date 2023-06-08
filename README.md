@@ -2,6 +2,8 @@
 
 > **Web3 powered karaoke & community interactions for song writers and musicians.**
 
+![Firefly Super_loud_Web3 powered karaoke  community interactions for song writers and musicians Des (1)](https://github.com/HarmonyTune/Super_loud/assets/117026611/1139ddc0-03f0-44b2-b86a-e6f50dc4bc32)
+
 ## Description
 
 Superloud helps connecting musicians and fans through a fun web3 karaoke platform.
