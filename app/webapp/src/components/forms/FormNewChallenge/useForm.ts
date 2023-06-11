@@ -5,7 +5,10 @@ import { z } from 'zod'
 import { normalizeProps, useMachine } from '@zag-js/solid'
 import * as accordion from '@zag-js/accordion'
 import { createMemo, createUniqueId } from 'solid-js'
-
+interface FormNewChallengeProps {
+  storeForm: any
+  apiAccordion: any
+}
 export function useForm(args: {
   onSubmit: (values: z.infer<typeof schema>) => void
   initialValues: z.infer<typeof schema>
